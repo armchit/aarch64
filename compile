@@ -4,4 +4,4 @@ gcc 001.o -o 001.elf -nostdlib
 
 Compiling in Intel x86 Computer
 arm-linux-gnueabi-as 001.asm -o 001.o
-arm-linux-gnueabi-gcc-5 001.o -o 001.elf
+arm-linux-gnueabi-gcc-5 001.o -o 001.elf -nostdlib
