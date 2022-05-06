@@ -2,8 +2,9 @@ as 001.asm -o 001.o
 gcc 001.o -o 001.elf -nostdlib
 
 aarch64-linux-gnu 001.asm -o 001.o
-ld 001.o -o 001.elf -nostdlib
-
+ld 001.o -o 001.elf
+or
+aarch64-linux-gnu-gcc-9 001.o -o 001.elf -nostdlib
 
 Compiling in Intel x86 Computer
 arm-linux-gnueabi-as 001.asm -o 001.o
